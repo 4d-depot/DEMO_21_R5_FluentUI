@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 96" width="24" height="96">
+  <defs>
+    <style>
+      .normal { stroke: #b66900; }
+      .hover { stroke: #945400; }
+      .pressed { stroke: #7a4500; }
+      .disabled { stroke: #b0b0b0; }
+      @media (prefers-color-scheme: dark) {
+        .normal { stroke: #ffd08a; }
+        .hover { stroke: #ffe0a3; }
+        .pressed { stroke: #ffc068; }
+        .disabled { stroke: #707070; }
+      }
+    </style>
+  </defs>
+  <!-- Normal state (0-24) -->
+  <g>
+    <path class="normal" d="M12 4l8 15H4zM12 9v5M12 17h.01" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Hover state (24-48) -->
+  <g transform="translate(0, 24)">
+    <path class="hover" d="M12 4l8 15H4zM12 9v5M12 17h.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Pressed state (48-72) -->
+  <g transform="translate(0, 48)">
+    <path class="pressed" d="M12 4l8 15H4zM12 9v5M12 17h.01" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Disabled state (72-96) -->
+  <g transform="translate(0, 72)">
+    <path class="disabled" d="M12 4l8 15H4zM12 9v5M12 17h.01" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5"/>
+  </g>
+</svg>

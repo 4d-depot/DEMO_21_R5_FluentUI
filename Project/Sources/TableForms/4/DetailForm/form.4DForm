@@ -1,0 +1,320 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 824,
+	"windowMinHeight": 583,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Task",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"ToolbarBg": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 20,
+					"width": 784,
+					"height": 46,
+					"borderRadius": 10,
+					"class": "toolbar-surface",
+					"sizingX": "grow",
+					"right": 804
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 27,
+					"left": 30,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Cancel.svg",
+					"action": "cancel",
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"tooltip": "Cancel"
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 27,
+					"left": 70,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Save.svg",
+					"action": "accept",
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"tooltip": "Save task"
+				},
+				"bFirstRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 180,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/First.svg",
+					"action": "firstRecord",
+					"fontSize": 12,
+					"class": "toolbar-button",
+					"tooltip": "First task"
+				},
+				"bPreviousRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 220,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Prev.svg",
+					"action": "previousRecord",
+					"fontSize": 12,
+					"class": "toolbar-button",
+					"tooltip": "Previous task"
+				},
+				"bNextRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 260,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Next.svg",
+					"action": "nextRecord",
+					"fontSize": 12,
+					"class": "toolbar-button",
+					"tooltip": "Next task"
+				},
+				"bLastRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 300,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Last.svg",
+					"action": "lastRecord",
+					"fontSize": 12,
+					"class": "toolbar-button",
+					"tooltip": "Last task"
+				},
+				"bPrrint": {
+					"type": "button",
+					"top": 27,
+					"left": 756,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"sizingX": "move",
+					"method": "ObjectMethods/bPrrint.4dm",
+					"events": [
+						"onClick"
+					],
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"tooltip": "Print"
+				},
+				"ToolbarBg1": {
+					"type": "rectangle",
+					"top": 87,
+					"left": 20,
+					"width": 784,
+					"height": 455,
+					"borderRadius": 10,
+					"class": "toolbar-surface",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"bottom": 542,
+					"right": 804
+				},
+				"bDelete": {
+					"type": "button",
+					"top": 27,
+					"left": 110,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"action": "deleteRecord",
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"tooltip": "Delete task"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Title",
+					"top": 100,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input": {
+					"type": "input",
+					"left": 40,
+					"top": 120,
+					"width": 341,
+					"height": 17,
+					"dataSource": "[Task:4]title:2",
+					"enterable": true,
+					"focusable": false,
+					"sizingX": "grow"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Assignee",
+					"top": 160,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 40,
+					"top": 180,
+					"width": 341,
+					"height": 17,
+					"dataSource": "[Task:4]assignee:4",
+					"sizingX": "grow"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Avancement",
+					"top": 160,
+					"left": 457,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold",
+					"sizingX": "move"
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"left": 457,
+					"top": 120,
+					"width": 171,
+					"height": 24,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "[Task:4]status:3",
+					"choiceList": [
+						"To Do",
+						"In Progress",
+						"Pending",
+						"Completed"
+					],
+					"sizingX": "move"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Status",
+					"top": 100,
+					"left": 457,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold",
+					"sizingX": "move"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Comment",
+					"top": 220,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 40,
+					"top": 240,
+					"width": 744,
+					"height": 273,
+					"dataSource": "[Task:4]comments:7",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 804,
+					"width": 10,
+					"height": 46,
+					"sizingX": "move",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 541,
+					"left": 738,
+					"width": 66,
+					"height": 10,
+					"sizingY": "move",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 457,
+					"top": 180,
+					"width": 138,
+					"height": 17,
+					"dataSourceTypeHint": "number",
+					"dataSource": "[Task:4]progress:5",
+					"entryFilter": "!0&9",
+					"numberFormat": "###%",
+					"sizingX": "move"
+				},
+				"Stepper": {
+					"type": "stepper",
+					"left": 605,
+					"top": 174,
+					"width": 23,
+					"height": 28,
+					"max": 100,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "[Task:4]progress:5",
+					"sizingX": "move"
+				}
+			}
+		}
+	],
+	"geometryStamp": 138,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm",
+	"markerFooter": 482,
+	"markerBreak": 462,
+	"markerBody": 462,
+	"markerHeader": 87
+}

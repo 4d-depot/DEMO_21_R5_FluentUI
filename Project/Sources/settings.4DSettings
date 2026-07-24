@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="3">
+	<com.4d>
+		<interface>
+			<user fluentUI="true" sdi_application="true"/>
+			<shortcuts>
+				<accept_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+			</shortcuts>
+		</interface>
+	</com.4d>
+</preferences>

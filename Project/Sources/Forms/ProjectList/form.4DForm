@@ -1,0 +1,276 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 560,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"fill": "#f0f4f9",
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onTimer"
+	],
+	"windowTitle": "Projects",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"ToolbarBg": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 3,
+					"width": 520,
+					"height": 46,
+					"class": "toolbar-surface"
+				},
+				"bEdit": {
+					"type": "button",
+					"text": "",
+					"top": 11,
+					"left": 13,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Edit.svg",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar-button",
+					"method": "ObjectMethods/bEdit.4dm"
+				},
+				"bAdd": {
+					"type": "button",
+					"text": "",
+					"top": 11,
+					"left": 53,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Add.svg",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar-button",
+					"method": "ObjectMethods/bAdd.4dm"
+				},
+				"bDrop": {
+					"type": "button",
+					"text": "",
+					"top": 11,
+					"left": 93,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar-button",
+					"method": "ObjectMethods/bDrop.4dm"
+				},
+				"bPrint": {
+					"type": "button",
+					"text": "",
+					"top": 11,
+					"left": 475,
+					"width": 38,
+					"height": 32,
+					"sizingX": "move",
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar-button",
+					"method": "ObjectMethods/bPrint.4dm"
+				},
+				"Input": {
+					"type": "input",
+					"left": 257,
+					"top": 16,
+					"width": 208,
+					"height": 22,
+					"verticalAlign": "middle",
+					"paddingRight": 46,
+					"dataSource": "Form:C1466.search",
+					"sizingX": "move",
+					"events": [
+						"onLosingFocus",
+						"onBeforeKeystroke",
+						"onAfterKeystroke"
+					],
+					"method": "ObjectMethods/Input.4dm",
+					"placeholder": "Search...",
+					"paddingBottom": 2
+				},
+				"btnDel": {
+					"type": "button",
+					"top": 17,
+					"left": 422,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/Images/Buttons/Fluent/ClearSearch.svg",
+					"iconFrames": 4,
+					"sizingX": "move",
+					"method": "ObjectMethods/btnDel.4dm"
+				},
+				"btnSearch": {
+					"type": "button",
+					"top": 17,
+					"left": 444,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Search.svg",
+					"iconFrames": 4,
+					"sizingX": "move",
+					"method": "ObjectMethods/btnSearch.4dm",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Return]"
+				}
+			},
+			"entryOrder": [
+				"bEdit",
+				"bAdd",
+				"bDrop",
+				"bPrint",
+				"Input",
+				"btnSearch",
+				"btnDel"
+			]
+		},
+		{
+			"objects": {
+				"ListBox": {
+					"type": "listbox",
+					"left": 20,
+					"top": 86,
+					"width": 520,
+					"height": 341,
+					"events": [
+						"onClick",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.projects",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"hideFocusRing": true,
+					"selectionMode": "single",
+					"currentItemSource": "Form:C1466.selectedProject",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"selectedItemsSource": "Form:C1466.selection",
+					"class": "data-grid",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1",
+								"class": "data-grid-header"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.name",
+							"minWidth": 140,
+							"maxWidth": 300,
+							"width": 140
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Manager",
+								"class": "data-grid-header"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.manager",
+							"minWidth": 120,
+							"maxWidth": 300
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Status",
+								"class": "data-grid-header"
+							},
+							"name": "Column4",
+							"dataSource": "This:C1470.status",
+							"footer": {
+								"name": "Footer4"
+							},
+							"width": 90,
+							"minWidth": 90,
+							"maxWidth": 120
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Progress",
+								"class": "data-grid-header"
+							},
+							"name": "Column5",
+							"dataSource": "This:C1470.progress",
+							"dataSourceTypeHint": "number",
+							"footer": {
+								"name": "Footer5"
+							},
+							"numberFormat": "##0%",
+							"width": 80,
+							"enterable": false,
+							"minWidth": 80,
+							"maxWidth": 80
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Validation",
+								"class": "data-grid-header"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.clientValidationRequired",
+							"dataSourceTypeHint": "boolean",
+							"textAlign": "center",
+							"width": 80,
+							"minWidth": 80,
+							"maxWidth": 80
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 1174,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"formClass": "ProjectListForm",
+	"rightMargin": 20,
+	"bottomMargin": 20
+}

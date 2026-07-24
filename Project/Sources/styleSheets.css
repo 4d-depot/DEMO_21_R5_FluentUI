@@ -1,0 +1,194 @@
+/* ============================================================
+   DemoLiquidGlass — Form Stylesheet
+   Supports: prefers-color-scheme (light/dark)
+   ============================================================ */
+
+@media (prefers-color-scheme: light) {
+    .main-surface {
+        fill: #f6f9fc;
+        stroke: #dce6f2;
+    }
+
+    .data-grid {
+        fill: #ffffff;
+        stroke: #d4deea;
+        horizontalPadding: 4;
+        verticalPadding: 2;
+        stroke: #2b3f58;
+    }
+
+    .data-grid-header {
+        stroke: #1f4068;
+    }
+
+    .toolbar-button {
+        style: "toolbar";
+        iconFrames: 4;
+    }
+
+    .toolbar-surface {
+        fill: #ffffff;
+        stroke: #e4ebf3;
+        borderRadius: 10;
+        sizingX: "grow";
+    }
+
+    .field-control {
+        stroke: #2b3f58;
+    }
+
+    .field-check {
+        stroke: #24486f;
+    }
+
+    .body-text {
+        stroke: #2b3f58;
+    }
+
+    .dialog-surface {
+        fill: #f6f9fc;
+        stroke: #dce6f2;
+    }
+
+
+    /* List Styles */
+
+    .list-surface {
+        fill: #F3F3F3;
+        stroke: #F3F3F3;
+    }
+
+    .list-header-band {
+        fill: #1f5f9d;
+        stroke: transparent;
+        sizingX: grow;
+    }
+
+    .list-header-text {
+        fill: transparent;
+        stroke: #ffffff;
+        textAlign: center;
+        verticalAlign: middle;
+        sizingX: grow;
+        borderStyle: none;
+    }
+
+    .list-row-surface {
+        fill: #ffffff;
+        stroke: transparent;
+        sizingX: grow;
+    }
+
+    .list-print-band {
+        fill: #f0f0f0;
+        stroke: transparent;
+    }
+
+    .list-separator {
+        stroke: #e4ebf3;
+    }
+
+    .list-splitter {
+        stroke: #D0D5DE;
+        borderStyle: solid;
+    }
+
+    .list-row-text {
+        stroke: #1f5f9d;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .main-surface {
+        fill: #1a2533;
+        stroke: #304256;
+    }
+
+    .data-grid {
+        fill: #222f40;
+        stroke: #37506c;
+    }
+
+    .data-grid-header {
+        stroke: #9ac4e7;
+    }
+
+    .data-grid-column {
+        stroke: #d3e5f7;
+    }
+
+    .toolbar-button {
+        style: "toolbar";
+        iconFrames: 4;
+    }
+
+    .toolbar-surface {
+        fill: #202020;
+        stroke: #45617f;
+        borderRadius: 10;
+        sizingX: "grow";
+    }
+
+    .field-control {
+        fill: #243446;
+        stroke: #5d7896;
+    }
+
+    .field-check {
+        stroke: #9ac4e7;
+    }
+
+    .body-text {
+        stroke: #d3e5f7;
+    }
+
+    .dialog-surface {
+        fill: #1f2c3b;
+        stroke: #304256;
+    }
+
+        /* List Styles */
+
+    .list-surface {
+        fill: #202020;
+        stroke: #202020;
+    }
+    .list-header-band {
+        fill: #1f5f9d;
+        stroke: transparent;
+        sizingX: grow;
+    }
+
+    .list-header-text {
+        fill: transparent;
+        stroke: #ffffff;
+        textAlign: center;
+        verticalAlign: middle;
+        sizingX: grow;
+        borderStyle: none;
+    }
+
+    .list-row-surface {
+        fill: #202020;
+        stroke: transparent;
+        sizingX: grow;
+    }
+
+    .list-print-band {
+        fill: #2b3c50;
+        stroke: transparent;
+    }
+
+    .list-separator {
+        stroke: #45617f;
+    }
+
+    .list-splitter {
+        stroke: #437AD8;
+        borderStyle: solid;
+    }
+
+    .list-row-text {
+        stroke: #d3e5f7;
+    }
+}

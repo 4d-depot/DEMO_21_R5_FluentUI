@@ -1,0 +1,283 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 784,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"markerHeader": 41,
+	"markerBody": 81,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "listScreen",
+	"pages": [
+		{
+			"objects": {
+				"ToolbarBg1": {
+					"type": "rectangle",
+					"top": 24,
+					"left": 0,
+					"width": 744,
+					"height": 69,
+					"class": "toolbar-surface",
+					"bottom": 93
+				},
+				"footerSurface1": {
+					"type": "rectangle",
+					"top": 95,
+					"left": 0,
+					"width": 744,
+					"height": 27,
+					"class": "list-header-band",
+					"borderRadius": 10,
+					"sizingX": "grow"
+				},
+				"footerSurface": {
+					"type": "rectangle",
+					"top": 81,
+					"left": 0,
+					"width": 744,
+					"height": 27,
+					"class": "list-header-band",
+					"sizingX": "grow"
+				},
+				"headerSurface": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 744,
+					"height": 27,
+					"class": "list-header-band",
+					"borderRadius": 10,
+					"sizingX": "grow"
+				},
+				"headerSurface2": {
+					"type": "rectangle",
+					"top": 14,
+					"left": 0,
+					"width": 744,
+					"height": 27,
+					"class": "list-header-band",
+					"sizingX": "grow"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 10,
+					"top": 81,
+					"width": 721,
+					"height": 41,
+					"dataSource": "\"Task: \"+String:C10(Records in selection:C76([Task:4]))+\" items\"",
+					"enterable": false,
+					"class": "list-header-text"
+				},
+				"rowSurface": {
+					"type": "rectangle",
+					"top": 41,
+					"left": 1,
+					"width": 742,
+					"height": 40,
+					"class": "list-row-surface"
+				}
+			}
+		},
+		{
+			"objects": {
+				"field_name": {
+					"type": "input",
+					"dataSource": "[Task:4]title:2",
+					"top": 53,
+					"left": 0,
+					"width": 220,
+					"height": 17,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"sizingX": "grow",
+					"enterable": true
+				},
+				"field_manager": {
+					"type": "input",
+					"dataSource": "[Task:4]assignee:4",
+					"top": 53,
+					"left": 230,
+					"width": 180,
+					"height": 17,
+					"textAlign": "center",
+					"enterable": true,
+					"sizingX": "grow",
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"field_status1": {
+					"type": "input",
+					"dataSource": "[Task:4]status:3",
+					"top": 53,
+					"left": 420,
+					"width": 180,
+					"height": 17,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "center",
+					"enterable": true,
+					"sizingX": "grow"
+				},
+				"field_progress1": {
+					"type": "input",
+					"dataSource": "[Task:4]progress:5",
+					"dataSourceTypeHint": "integer",
+					"top": 53,
+					"left": 610,
+					"width": 80,
+					"height": 17,
+					"borderStyle": "none",
+					"textAlign": "center",
+					"fill": "transparent",
+					"numberFormat": "##0%",
+					"sizingX": "grow",
+					"enterable": true
+				},
+				"bFirstRecord2": {
+					"type": "button",
+					"text": "",
+					"top": 44,
+					"left": 700,
+					"width": 38,
+					"height": 34,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/OpenList.svg",
+					"action": "displaySubrecord",
+					"events": [
+						"onClick"
+					],
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"visibility": "selectedRows",
+					"sizingX": "move",
+					"borderStyle": "none"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Title",
+					"top": 0,
+					"left": 0,
+					"width": 220,
+					"height": 41,
+					"class": "list-header-text",
+					"bottom": 41
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Assignee",
+					"top": 0,
+					"left": 230,
+					"width": 180,
+					"height": 41,
+					"class": "list-header-text"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Status",
+					"top": 0,
+					"left": 420,
+					"width": 180,
+					"height": 41,
+					"class": "list-header-text"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Progress",
+					"top": 0,
+					"left": 610,
+					"width": 80,
+					"height": 41,
+					"class": "list-header-text"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"left": 414,
+					"top": 0,
+					"width": 2,
+					"height": 81,
+					"class": "list-splitter"
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"left": 604,
+					"top": 0,
+					"width": 2,
+					"height": 81,
+					"class": "list-splitter"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 41,
+					"left": 414,
+					"width": 0,
+					"height": 40,
+					"class": "list-separator",
+					"sizingX": "move"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 41,
+					"left": 604,
+					"width": 0,
+					"height": 40,
+					"class": "list-separator",
+					"sizingX": "move"
+				},
+				"bAdd": {
+					"type": "button",
+					"text": "",
+					"top": 5,
+					"left": 700,
+					"width": 38,
+					"height": 34,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/AddList.svg",
+					"action": "addSubrecord",
+					"events": [
+						"onClick"
+					],
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"sizingX": "move"
+				},
+				"Splitter": {
+					"type": "splitter",
+					"left": 224,
+					"top": 0,
+					"width": 2,
+					"height": 81,
+					"class": "list-splitter"
+				},
+				"Line": {
+					"type": "line",
+					"top": 41,
+					"left": 224,
+					"width": 0,
+					"height": 40,
+					"class": "list-separator",
+					"sizingX": "move"
+				}
+			}
+		}
+	],
+	"geometryStamp": 229,
+	"markerFooter": 142,
+	"markerBreak": 122,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

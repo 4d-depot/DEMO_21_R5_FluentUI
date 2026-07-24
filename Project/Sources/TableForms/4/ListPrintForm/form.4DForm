@@ -1,0 +1,149 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 30,
+	"markerBody": 80,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "listPrinter",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"label_title": {
+					"type": "text",
+					"text": "Title",
+					"top": 10,
+					"left": 10,
+					"height": 16,
+					"width": 200,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"class": "list-row-text"
+				},
+				"field_title": {
+					"type": "input",
+					"dataSource": "[Task:4]title:2",
+					"top": 37,
+					"left": 10,
+					"width": 200,
+					"height": 33,
+					"borderStyle": "none",
+					"multiline": "yes",
+					"verticalAlign": "middle",
+					"textAlign": "center",
+					"class": "list-row-text"
+				},
+				"label_status": {
+					"type": "text",
+					"text": "Status",
+					"top": 10,
+					"left": 410,
+					"height": 16,
+					"width": 150,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"class": "list-row-text"
+				},
+				"field_status": {
+					"type": "input",
+					"dataSource": "[Task:4]status:3",
+					"top": 37,
+					"left": 410,
+					"width": 150,
+					"height": 17,
+					"borderStyle": "none",
+					"textAlign": "center",
+					"class": "list-row-text"
+				},
+				"label_assignee": {
+					"type": "text",
+					"text": "Assignee",
+					"top": 10,
+					"left": 220,
+					"height": 17,
+					"width": 180,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"class": "list-row-text"
+				},
+				"field_assignee": {
+					"type": "input",
+					"dataSource": "[Task:4]assignee:4",
+					"top": 37,
+					"left": 220,
+					"width": 180,
+					"height": 33,
+					"borderStyle": "none",
+					"verticalAlign": "middle",
+					"textAlign": "center",
+					"class": "list-row-text"
+				},
+				"field_progress": {
+					"type": "input",
+					"dataSource": "[Task:4]progress:5",
+					"dataSourceTypeHint": "integer",
+					"entryFilter": "&\"0-9;-\"",
+					"top": 59,
+					"left": 410,
+					"width": 150,
+					"height": 17,
+					"borderStyle": "none",
+					"textAlign": "center",
+					"numberFormat": "##0%",
+					"class": "list-row-text"
+				},
+				"Line": {
+					"type": "line",
+					"top": 10,
+					"left": 215,
+					"width": 0,
+					"height": 70,
+					"class": "list-separator",
+					"startPoint": "bottomLeft"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 10,
+					"left": 405,
+					"width": 0,
+					"height": 70,
+					"class": "list-separator"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 30,
+					"left": 0,
+					"width": 560,
+					"height": 0,
+					"class": "list-separator",
+					"startPoint": "topLeft"
+				}
+			}
+		}
+	],
+	"geometryStamp": 145,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"markerFooter": 80,
+	"markerBreak": 80
+}

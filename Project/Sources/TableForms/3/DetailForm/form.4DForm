@@ -1,0 +1,351 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 824,
+	"windowMinHeight": 562,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onPrintingDetail",
+		"onCloseDetail",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Project",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"ToolbarBg": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 20,
+					"width": 784,
+					"height": 46,
+					"class": "toolbar-surface",
+					"sizingX": "grow"
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 27,
+					"left": 30,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Cancel.svg",
+					"action": "cancel",
+					"class": "toolbar-button",
+					"tooltip": "Cancel"
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 27,
+					"left": 70,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Save.svg",
+					"action": "accept",
+					"class": "toolbar-button",
+					"tooltip": "Save project"
+				},
+				"bFirstRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 180,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/First.svg",
+					"action": "firstRecord",
+					"class": "toolbar-button",
+					"tooltip": "First project"
+				},
+				"bPreviousRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 220,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Prev.svg",
+					"action": "previousRecord",
+					"class": "toolbar-button",
+					"tooltip": "Previous project"
+				},
+				"bNextRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 260,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Next.svg",
+					"action": "nextRecord",
+					"class": "toolbar-button",
+					"tooltip": "Next project"
+				},
+				"bLastRecord": {
+					"type": "button",
+					"top": 27,
+					"left": 300,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Last.svg",
+					"action": "lastRecord",
+					"class": "toolbar-button",
+					"tooltip": "Last project"
+				},
+				"bPreviousRecord1": {
+					"type": "button",
+					"top": 27,
+					"left": 749,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"sizingX": "move",
+					"method": "ObjectMethods/bPreviousRecord1.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar-button",
+					"tooltip": "Print project"
+				},
+				"ToolbarBg1": {
+					"type": "rectangle",
+					"top": 87,
+					"left": 20,
+					"width": 784,
+					"height": 455,
+					"class": "toolbar-surface",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"bDelete": {
+					"type": "button",
+					"top": 27,
+					"left": 110,
+					"width": 38,
+					"height": 32,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"action": "deleteRecord",
+					"fontSize": 13,
+					"class": "toolbar-button",
+					"tooltip": "Delete project"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Project Name",
+					"top": 100,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input": {
+					"type": "input",
+					"left": 40,
+					"top": 120,
+					"width": 341,
+					"height": 17,
+					"dataSource": "[Project:3]name:2",
+					"enterable": true,
+					"focusable": false,
+					"sizingX": "grow"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Comment",
+					"top": 220,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 40,
+					"top": 240,
+					"width": 341,
+					"height": 113,
+					"dataSource": "[Project:3]comments:8",
+					"sizingX": "grow"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Manager",
+					"top": 160,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 40,
+					"top": 180,
+					"width": 341,
+					"height": 17,
+					"dataSource": "[Project:3]manager:3",
+					"sizingX": "grow"
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"text": "Notifications enabled",
+					"top": 268,
+					"left": 457,
+					"width": 341,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "[Project:3]notificationsEnabled:5",
+					"sizingX": "move"
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"text": "Client validation required",
+					"top": 240,
+					"left": 457,
+					"width": 341,
+					"height": 18,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "[Project:3]clientValidationRequired:6",
+					"sizingX": "move"
+				},
+				"Thermometer": {
+					"type": "progress",
+					"left": 457,
+					"top": 180,
+					"width": 322,
+					"height": 24,
+					"max": 100,
+					"dataSource": "[Project:3]progress:7",
+					"graduationStep": 10,
+					"showGraduations": true,
+					"labelsPlacement": "bottom",
+					"fontSize": 10,
+					"right": 779,
+					"sizingX": "move"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Avancement",
+					"top": 160,
+					"left": 457,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold",
+					"sizingX": "move"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Tasks",
+					"top": 380,
+					"left": 40,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"left": 457,
+					"top": 120,
+					"width": 171,
+					"height": 24,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "[Project:3]status:4",
+					"choiceList": [
+						"To Do",
+						"In Progress",
+						"Pending",
+						"Completed"
+					],
+					"sizingX": "move"
+				},
+				"Subform": {
+					"type": "subform",
+					"left": 40,
+					"top": 400,
+					"width": 747,
+					"height": 122,
+					"table": "Task",
+					"listForm": "OutputForm",
+					"detailForm": "DetailForm",
+					"selectionMode": "single",
+					"doubleClickInRowAction": "editSubrecord",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"printFrame": "variable",
+					"right": 787,
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "visible"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Status",
+					"top": 100,
+					"left": 457,
+					"width": 215,
+					"height": 16,
+					"fontWeight": "bold",
+					"sizingX": "move"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 804,
+					"width": 10,
+					"height": 46,
+					"sizingX": "move",
+					"fill": "transparent",
+					"stroke": "transparent"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 542,
+					"left": 738,
+					"width": 66,
+					"height": 10,
+					"sizingY": "move",
+					"fill": "transparent",
+					"stroke": "transparent"
+				}
+			},
+			"entryOrder": [
+				"Input",
+				"Input2",
+				"Check Box1",
+				"Check Box",
+				"Input1",
+				"Thermometer",
+				"Popup Dropdown List",
+				"Subform"
+			]
+		}
+	],
+	"geometryStamp": 509,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"markerFooter": 583,
+	"markerBreak": 563,
+	"markerBody": 563,
+	"markerHeader": 87,
+	"method": "method.4dm"
+}
