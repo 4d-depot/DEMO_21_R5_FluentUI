@@ -111,7 +111,7 @@
 					"width": 38,
 					"height": 34,
 					"icon": "/RESOURCES/Images/Buttons/Fluent/Edit.svg",
-					"action": "displaySubrecord",
+					"action": "editSubrecord",
 					"events": [
 						"onClick"
 					],
