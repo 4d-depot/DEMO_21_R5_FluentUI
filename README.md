@@ -1,0 +1,27 @@
+# DEMO_21_R5_FluentUI
+
+This demo project showcases the new Fluent UI visual capabilities on Windows.
+With 4D 21 R5, list forms can now be displayed using Fluent UI.
+
+Here is a list of blog posts covering the different features already delivered:
+- [Modernize your 4D interfaces with Fluent UI](https://blog.4d.com/modernize-your-4d-interfaces-with-fluent-ui/)
+- [Deploy Fluent UI effortlessly in your 4D applications](https://blog.4d.com/deploy-fluent-ui-effortlessly-in-your-4d-applications/)
+- [A Modernized Object Library with Fluent UI and Liquid Glass](https://blog.4d.com/a-modernized-object-library-with-fluent-ui/)
+- [Printing Modern Interfaces with Clean, Consistent Output](https://blog.4d.com/printing-modern-interfaces-with-clean-consistent-output/)
+
+
+## Installing and Using a 4D Project
+
+### Pre-requisites
+
+* Download the latest Release version of 4D from: https://us.4d.com/product-download or the latest Beta version from: https://discuss.4d.com
+* Follow the activation steps for 4D from: https://developer.4d.com/docs/GettingStarted/installation
+
+### Steps to Run the Project
+
+* Clone or download the GitHub repository containing the 4D project to your local machine. Need help, check out [this blog](https://blog.4d.com/github-4d-depot/).
+* Open the 4D project in your 4D software by navigating to "File > Open Project".  You can find more details [here](https://developer.4d.com/docs/GettingStarted/creating#opening-a-project).
+* Play with this HDI.
+* Navigate to the "Mode/Return to design mode" menu to view the code.
+
+By following these steps, you will be able to successfully install and run a 4D project.

@@ -9,6 +9,8 @@ var $status : Text
 // Clean existing data
 ds:C1482.Task.all().drop()
 ds:C1482.Project.all().drop()
+SET DATABASE PARAMETER:C642([Project:3]; Table sequence number:K37:31; 0)
+SET DATABASE PARAMETER:C642([Task:4]; Table sequence number:K37:31; 0)
 
 // Base data
 var $projectNames : Collection
@@ -84,7 +86,7 @@ $taskNames:=New collection:C1472(\
 "Production release"\
 )
 
-For ($i; 1; 10)
+For ($i; 1; 20)
 	
 	$project:=ds:C1482.Project.new()
 	
