@@ -292,7 +292,7 @@
 					"width": 38,
 					"height": 34,
 					"icon": "/RESOURCES/Images/Buttons/Fluent/OpenList.svg",
-					"action": "displaySubrecord",
+					"action": "editSubrecord",
 					"events": [
 						"onClick"
 					],
