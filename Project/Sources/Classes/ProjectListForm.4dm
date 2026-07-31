@@ -33,9 +33,9 @@ Function onEditProject
 		var $formData:=cs:C1710.ProjectDetailForm.new(This:C1470.selectedProject; This:C1470.projects.length)
 		
 		// Open Detail Form window (edit mode)
-		var $winRef:=Open form window:C675("ProjectDetail"; Movable form dialog box:K39:8; Horizontally centered:K39:1; Vertically centered:K39:4; *)
+		//var $winRef:=Open form window("ProjectDetail"; Movable form dialog box; Horizontally centered; Vertically centered; *)
 		DIALOG:C40("ProjectDetail"; $formData)
-		CLOSE WINDOW:C154($winRef)
+		//CLOSE WINDOW($winRef)
 	End if 
 	
 	
@@ -45,9 +45,9 @@ Function onNewProject
 	var $formData:=cs:C1710.ProjectDetailForm.new(Null:C1517)
 	
 	// Open Detail Form window (create mode)
-	var $winRef:=Open form window:C675("ProjectDetail"; Movable form dialog box:K39:8; Horizontally centered:K39:1; Vertically centered:K39:4; *)
+	//var $winRef:=Open form window("ProjectDetail"; Movable form dialog box; Horizontally centered; Vertically centered; *)
 	DIALOG:C40("ProjectDetail"; $formData)
-	CLOSE WINDOW:C154($winRef)
+	//CLOSE WINDOW($winRef)
 	
 	// Refresh List Form
 	This:C1470.projects.add($formData.project)

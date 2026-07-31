@@ -34,7 +34,7 @@
 					"type": "button",
 					"text": "",
 					"top": 27,
-					"left": 30,
+					"left": 90,
 					"width": 38,
 					"height": 32,
 					"icon": "/RESOURCES/Images/Buttons/Fluent/Edit.svg",
@@ -42,13 +42,14 @@
 						"onClick"
 					],
 					"class": "toolbar-button",
-					"method": "ObjectMethods/bEdit.4dm"
+					"method": "ObjectMethods/bEdit.4dm",
+					"tooltip": "Edit project"
 				},
 				"bAdd": {
 					"type": "button",
 					"text": "",
 					"top": 27,
-					"left": 70,
+					"left": 130,
 					"width": 38,
 					"height": 32,
 					"icon": "/RESOURCES/Images/Buttons/Fluent/Add.svg",
@@ -56,13 +57,14 @@
 						"onClick"
 					],
 					"class": "toolbar-button",
-					"method": "ObjectMethods/bAdd.4dm"
+					"method": "ObjectMethods/bAdd.4dm",
+					"tooltip": "Add project"
 				},
 				"bDrop": {
 					"type": "button",
 					"text": "",
 					"top": 27,
-					"left": 110,
+					"left": 170,
 					"width": 38,
 					"height": 32,
 					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
@@ -70,7 +72,8 @@
 						"onClick"
 					],
 					"class": "toolbar-button",
-					"method": "ObjectMethods/bDrop.4dm"
+					"method": "ObjectMethods/bDrop.4dm",
+					"tooltip": "Delete project"
 				},
 				"bPrint": {
 					"type": "button",
@@ -85,7 +88,8 @@
 						"onClick"
 					],
 					"class": "toolbar-button",
-					"method": "ObjectMethods/bPrint.4dm"
+					"method": "ObjectMethods/bPrint.4dm",
+					"tooltip": "Print"
 				},
 				"Input": {
 					"type": "input",
@@ -140,6 +144,21 @@
 					"shortcutShift": false,
 					"shortcutAlt": false,
 					"shortcutKey": "[Return]"
+				},
+				"bEdit1": {
+					"type": "button",
+					"text": "",
+					"top": 27,
+					"left": 30,
+					"width": 38,
+					"height": 34,
+					"icon": "/RESOURCES/Images/Buttons/Fluent/Back.svg",
+					"events": [
+						"onClick"
+					],
+					"class": "toolbar-button",
+					"tooltip": "Back",
+					"action": "cancel"
 				}
 			},
 			"entryOrder": [
@@ -149,7 +168,8 @@
 				"bPrint",
 				"Input",
 				"btnSearch",
-				"btnDel"
+				"btnDel",
+				"bEdit1"
 			]
 		},
 		{
@@ -174,7 +194,6 @@
 					"currentItemSource": "Form:C1466.selectedProject",
 					"scrollbarHorizontal": "automatic",
 					"scrollbarVertical": "automatic",
-					"selectedItemsSource": "Form:C1466.selection",
 					"class": "data-grid",
 					"columns": [
 						{
@@ -261,7 +280,7 @@
 			}
 		}
 	],
-	"geometryStamp": 1187,
+	"geometryStamp": 1192,
 	"method": "method.4dm",
 	"editor": {
 		"activeView": "View 1",

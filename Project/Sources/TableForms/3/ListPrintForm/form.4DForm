@@ -39,8 +39,7 @@
 					"left": 10,
 					"height": 16,
 					"width": 250,
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_name": {
 					"type": "input",
@@ -52,8 +51,7 @@
 					"borderStyle": "none",
 					"fontWeight": "bold",
 					"fontSize": 14,
-					"fill": "transparent",
-					"class": "list-row-text"
+					"fill": "transparent"
 				},
 				"label_manager": {
 					"type": "text",
@@ -62,8 +60,7 @@
 					"left": 270,
 					"height": 16,
 					"width": 150,
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_manager": {
 					"type": "input",
@@ -73,8 +70,7 @@
 					"width": 250,
 					"height": 17,
 					"borderStyle": "none",
-					"fill": "transparent",
-					"class": "list-row-text"
+					"fill": "transparent"
 				},
 				"field_status": {
 					"type": "input",
@@ -84,8 +80,7 @@
 					"width": 104,
 					"height": 17,
 					"borderStyle": "none",
-					"fill": "transparent",
-					"class": "list-row-text"
+					"fill": "transparent"
 				},
 				"label_clientValidationRequired": {
 					"type": "text",
@@ -94,8 +89,7 @@
 					"left": 430,
 					"height": 16,
 					"width": 117,
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_clientValidationRequired": {
 					"type": "checkbox",
@@ -119,13 +113,12 @@
 					"height": 17,
 					"borderStyle": "none",
 					"numberFormat": "##0%",
-					"fill": "transparent",
-					"class": "list-row-text"
+					"fill": "transparent"
 				}
 			}
 		}
 	],
-	"geometryStamp": 138,
+	"geometryStamp": 152,
 	"markerFooter": 83,
 	"markerBreak": 83,
 	"editor": {

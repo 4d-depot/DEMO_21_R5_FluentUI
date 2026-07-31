@@ -15,18 +15,18 @@
   </defs>
   <!-- Normal state (0-24) -->
   <g>
-    <path class="normal" d="M18 12H8M12 8l-4 4 4 4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path class="normal" d="M19 12H6M12 6l-6 6 6 6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
   <!-- Hover state (24-48) -->
   <g transform="translate(0, 24)">
-    <path class="hover" d="M18 12H8M12 8l-4 4 4 4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path class="hover" d="M19 12H6M12 6l-6 6 6 6" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
   <!-- Pressed state (48-72) -->
   <g transform="translate(0, 48)">
-    <path class="pressed" d="M18 12H8M12 8l-4 4 4 4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path class="pressed" d="M19 12H6M12 6l-6 6 6 6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
   <!-- Disabled state (72-96) -->
   <g transform="translate(0, 72)">
-    <path class="disabled" d="M18 12H8M12 8l-4 4 4 4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5"/>
+    <path class="disabled" d="M19 12H6M12 6l-6 6 6 6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5"/>
   </g>
 </svg>

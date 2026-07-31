@@ -32,8 +32,7 @@
 					"height": 16,
 					"width": 200,
 					"fontWeight": "bold",
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_title": {
 					"type": "input",
@@ -45,8 +44,7 @@
 					"borderStyle": "none",
 					"multiline": "yes",
 					"verticalAlign": "middle",
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"label_status": {
 					"type": "text",
@@ -56,8 +54,7 @@
 					"height": 16,
 					"width": 150,
 					"fontWeight": "bold",
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_status": {
 					"type": "input",
@@ -67,8 +64,7 @@
 					"width": 150,
 					"height": 17,
 					"borderStyle": "none",
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"label_assignee": {
 					"type": "text",
@@ -78,8 +74,7 @@
 					"height": 17,
 					"width": 180,
 					"fontWeight": "bold",
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_assignee": {
 					"type": "input",
@@ -90,8 +85,7 @@
 					"height": 33,
 					"borderStyle": "none",
 					"verticalAlign": "middle",
-					"textAlign": "center",
-					"class": "list-row-text"
+					"textAlign": "center"
 				},
 				"field_progress": {
 					"type": "input",
@@ -104,8 +98,7 @@
 					"height": 17,
 					"borderStyle": "none",
 					"textAlign": "center",
-					"numberFormat": "##0%",
-					"class": "list-row-text"
+					"numberFormat": "##0%"
 				},
 				"Line": {
 					"type": "line",
@@ -136,7 +129,7 @@
 			}
 		}
 	],
-	"geometryStamp": 145,
+	"geometryStamp": 159,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
