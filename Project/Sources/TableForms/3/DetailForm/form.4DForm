@@ -152,7 +152,7 @@
 				"Input": {
 					"type": "input",
 					"left": 40,
-					"top": 120,
+					"top": 124,
 					"width": 341,
 					"height": 17,
 					"dataSource": "[Project:3]name:2",
@@ -172,7 +172,7 @@
 				"Input1": {
 					"type": "input",
 					"left": 40,
-					"top": 240,
+					"top": 244,
 					"width": 341,
 					"height": 113,
 					"dataSource": "[Project:3]comments:8",
@@ -190,7 +190,7 @@
 				"Input2": {
 					"type": "input",
 					"left": 40,
-					"top": 180,
+					"top": 184,
 					"width": 341,
 					"height": 17,
 					"dataSource": "[Project:3]manager:3",
@@ -225,7 +225,7 @@
 				"Thermometer": {
 					"type": "progress",
 					"left": 457,
-					"top": 180,
+					"top": 184,
 					"width": 322,
 					"height": 24,
 					"max": 100,
@@ -335,7 +335,7 @@
 			]
 		}
 	],
-	"geometryStamp": 518,
+	"geometryStamp": 532,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

@@ -267,42 +267,11 @@
 					"height": 40,
 					"class": "list-separator",
 					"sizingX": "move"
-				},
-				"bFirstRecord1": {
-					"type": "button",
-					"text": "",
-					"top": 3,
-					"left": 660,
-					"width": 38,
-					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/OpenList.svg",
-					"action": "editSubrecord",
-					"events": [
-						"onClick"
-					],
-					"fontSize": 13,
-					"class": "toolbar-button",
-					"visibility": "selectedRows",
-					"sizingX": "move",
-					"borderStyle": "none",
-					"focusable": false
-				},
-				"bDelete": {
-					"type": "button",
-					"top": 4,
-					"left": 610,
-					"width": 38,
-					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
-					"action": "deleteSubrecord",
-					"fontSize": 13,
-					"class": "toolbar-button",
-					"tooltip": "Delete task"
 				}
 			}
 		}
 	],
-	"geometryStamp": 235,
+	"geometryStamp": 237,
 	"markerFooter": 142,
 	"markerBreak": 122,
 	"editor": {

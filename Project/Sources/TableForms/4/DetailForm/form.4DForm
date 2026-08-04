@@ -173,7 +173,7 @@
 				"Input": {
 					"type": "input",
 					"left": 40,
-					"top": 120,
+					"top": 124,
 					"width": 341,
 					"height": 17,
 					"dataSource": "[Task:4]title:2",
@@ -193,7 +193,7 @@
 				"Input2": {
 					"type": "input",
 					"left": 40,
-					"top": 180,
+					"top": 184,
 					"width": 341,
 					"height": 17,
 					"dataSource": "[Task:4]assignee:4",
@@ -249,7 +249,7 @@
 				"Input1": {
 					"type": "input",
 					"left": 40,
-					"top": 240,
+					"top": 244,
 					"width": 744,
 					"height": 273,
 					"dataSource": "[Task:4]comments:7",
@@ -279,7 +279,7 @@
 				"Input3": {
 					"type": "input",
 					"left": 457,
-					"top": 180,
+					"top": 184,
 					"width": 138,
 					"height": 17,
 					"dataSourceTypeHint": "number",
@@ -291,7 +291,7 @@
 				"Stepper": {
 					"type": "stepper",
 					"left": 605,
-					"top": 174,
+					"top": 178,
 					"width": 23,
 					"height": 28,
 					"max": 100,
@@ -304,7 +304,7 @@
 			}
 		}
 	],
-	"geometryStamp": 138,
+	"geometryStamp": 154,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
