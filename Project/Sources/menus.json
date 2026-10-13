@@ -23,23 +23,7 @@
 			"items": [
 				{
 					"title": "Demo Project Form",
-					"method": "OpenProjectListForm"
-				},
-				{
-					"title": "Demo List Form",
-					"method": "OpenListForm"
-				},
-				{
-					"title": "Item 1",
-					"isSeparator": true
-				},
-				{
-					"title": "Generate Data",
-					"method": "GenerateData"
-				},
-				{
-					"title": "Item 2",
-					"isSeparator": true
+					"method": "__start"
 				},
 				{
 					"title": ":xliff:CommonMenuItemQuit",

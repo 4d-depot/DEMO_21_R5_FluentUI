@@ -159,7 +159,7 @@
 				"Input": {
 					"type": "input",
 					"left": 40,
-					"top": 123,
+					"top": 124,
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.name",
@@ -180,7 +180,7 @@
 				"Input1": {
 					"type": "input",
 					"left": 40,
-					"top": 320,
+					"top": 324,
 					"width": 480,
 					"height": 65,
 					"dataSource": "Form:C1466.comments",
@@ -199,7 +199,7 @@
 				"Input2": {
 					"type": "input",
 					"left": 40,
-					"top": 182,
+					"top": 184,
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.manager",
@@ -208,7 +208,7 @@
 				"Check Box": {
 					"type": "checkbox",
 					"text": "Notifications enabled",
-					"top": 249,
+					"top": 252,
 					"left": 40,
 					"width": 341,
 					"height": 22,
@@ -220,7 +220,7 @@
 				"Check Box1": {
 					"type": "checkbox",
 					"text": "Client validation required",
-					"top": 227,
+					"top": 230,
 					"left": 40,
 					"width": 341,
 					"height": 18,
@@ -242,9 +242,9 @@
 				"List Box": {
 					"type": "listbox",
 					"left": 40,
-					"top": 498,
+					"top": 504,
 					"width": 480,
-					"height": 104,
+					"height": 99,
 					"events": [
 						"onClick",
 						"onHeaderClick",
@@ -309,7 +309,7 @@
 				"Text4": {
 					"type": "text",
 					"text": "Tasks",
-					"top": 478,
+					"top": 480,
 					"left": 40,
 					"width": 215,
 					"height": 16,
@@ -369,7 +369,7 @@
 			]
 		}
 	],
-	"geometryStamp": 477,
+	"geometryStamp": 504,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

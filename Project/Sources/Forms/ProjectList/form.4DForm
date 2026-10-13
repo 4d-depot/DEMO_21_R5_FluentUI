@@ -9,7 +9,6 @@
 	"windowMinHeight": 0,
 	"windowMaxWidth": 32767,
 	"windowMaxHeight": 32767,
-	"fill": "#f0f4f9",
 	"events": [
 		"onLoad",
 		"onValidate",

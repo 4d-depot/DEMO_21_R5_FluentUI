@@ -12,7 +12,7 @@ Class constructor
 	This:C1470.selection:=Null:C1517
 	This:C1470.selectedProject:=Null:C1517
 	
-	This:C1470.delaySearch:=500
+	This:C1470.delaySearch:=100
 	This:C1470.search:=""
 	
 	// Load all projects
