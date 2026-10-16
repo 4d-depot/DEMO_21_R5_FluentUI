@@ -39,7 +39,7 @@
 					"left": 30,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Cancel.svg",
+					"icon": "/RESOURCES/Images/Buttons/Cancel.png",
 					"action": "cancel",
 					"class": "toolbar-button",
 					"tooltip": "Cancel"
@@ -50,7 +50,7 @@
 					"left": 70,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Save.svg",
+					"icon": "/RESOURCES/Images/Buttons/Save.png",
 					"action": "accept",
 					"class": "toolbar-button",
 					"tooltip": "Save project"
@@ -61,7 +61,7 @@
 					"left": 180,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/First.svg",
+					"icon": "/RESOURCES/Images/Buttons/First.png",
 					"action": "firstRecord",
 					"class": "toolbar-button",
 					"tooltip": "First project"
@@ -72,7 +72,7 @@
 					"left": 220,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Prev.svg",
+					"icon": "/RESOURCES/Images/Buttons/Prev.png",
 					"action": "previousRecord",
 					"class": "toolbar-button",
 					"tooltip": "Previous project"
@@ -83,7 +83,7 @@
 					"left": 260,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Next.svg",
+					"icon": "/RESOURCES/Images/Buttons/Next.png",
 					"action": "nextRecord",
 					"class": "toolbar-button",
 					"tooltip": "Next project"
@@ -94,7 +94,7 @@
 					"left": 300,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Last.svg",
+					"icon": "/RESOURCES/Images/Buttons/Last.png",
 					"action": "lastRecord",
 					"class": "toolbar-button",
 					"tooltip": "Last project"
@@ -105,7 +105,7 @@
 					"left": 749,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"icon": "/RESOURCES/Images/Buttons/Print.png",
 					"sizingX": "move",
 					"method": "ObjectMethods/bPreviousRecord1.4dm",
 					"events": [
@@ -130,7 +130,7 @@
 					"left": 110,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"icon": "/RESOURCES/Images/Buttons/Delete.png",
 					"action": "deleteRecord",
 					"fontSize": 13,
 					"class": "toolbar-button",

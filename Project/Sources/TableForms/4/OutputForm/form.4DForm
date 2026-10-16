@@ -152,7 +152,7 @@
 					"left": 700,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/OpenList.svg",
+					"icon": "/RESOURCES/Images/Buttons/OpenList.png",
 					"action": "editSubrecord",
 					"events": [
 						"onClick"
@@ -242,7 +242,7 @@
 					"left": 700,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/AddList.svg",
+					"icon": "/RESOURCES/Images/Buttons/AddList.png",
 					"action": "addSubrecord",
 					"events": [
 						"onClick"

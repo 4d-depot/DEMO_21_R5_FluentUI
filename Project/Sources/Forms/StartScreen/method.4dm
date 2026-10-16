@@ -1,18 +1,18 @@
-Case of 
+var $left; $top; $right; $bottom; $windowWidth; $windowHeight; $buttonWidth; $buttonHeight : Integer
+
+Case of
 		
 	: (Form event code:C388=On Resize:K2:27)
 		
-		OBJECT GET COORDINATES:C663(*; "ref"; $left; $top; $right; $bottom)
+		GET WINDOW RECT:C443($left; $top; $right; $bottom; Current form window)
 		
-		$width:=($right-$left-20)/2
-		$height:=($bottom-80)/2
+		$windowWidth:=$right-$left
+		$windowHeight:=$bottom-$top
+		$buttonWidth:=($windowWidth-60)/2
+		$buttonHeight:=($windowHeight-120)/2
 		
-		OBJECT SET COORDINATES:C1248(*; "project_text"; 20; 80; 20+$width; 80+$height)
-		OBJECT SET COORDINATES:C1248(*; "project_btn"; 20; 80; 20+$width; 80+$height)
-		OBJECT SET COORDINATES:C1248(*; "list_text"; $width+40; 80; $width+40+$width; 80+$height)
-		OBJECT SET COORDINATES:C1248(*; "list_btn"; $width+40; 80; $width+40+$width; 80+$height)
+		OBJECT SET COORDINATES:C1248(*; "project_btn"; 20; 80; 20+$buttonWidth; 80+$buttonHeight)
+		OBJECT SET COORDINATES:C1248(*; "list_btn"; 40+$buttonWidth; 80; $windowWidth-20; 80+$buttonHeight)
+		OBJECT SET COORDINATES:C1248(*; "Button"; 20; 100+$buttonHeight; $windowWidth-20; $windowHeight-20)
 		
-		OBJECT SET COORDINATES:C1248(*; "data_text"; 20; 100+$height; $width+40+$width; 80+$height+$height)
-		OBJECT SET COORDINATES:C1248(*; "data_btn"; 20; 100+$height; $width+40+$width; 80+$height+$height)
-		
-End case 
+End case

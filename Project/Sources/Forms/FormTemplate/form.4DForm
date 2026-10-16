@@ -50,7 +50,7 @@
 					"left": 130,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Add.svg",
+					"icon": "/RESOURCES/Images/Buttons/Add.png",
 					"events": [
 						"onClick"
 					],
@@ -66,7 +66,7 @@
 					"left": 170,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"icon": "/RESOURCES/Images/Buttons/Delete.png",
 					"events": [
 						"onClick"
 					],
@@ -83,7 +83,7 @@
 					"width": 38,
 					"height": 32,
 					"sizingX": "move",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"icon": "/RESOURCES/Images/Buttons/Print.png",
 					"events": [
 						"onClick"
 					],
@@ -99,7 +99,7 @@
 					"left": 90,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Edit.svg",
+					"icon": "/RESOURCES/Images/Buttons/Edit.png",
 					"events": [
 						"onClick"
 					],
@@ -115,7 +115,7 @@
 					"left": 270,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Cancel.svg",
+					"icon": "/RESOURCES/Images/Buttons/Cancel.png",
 					"fontSize": 12,
 					"class": "toolbar-button",
 					"events": [
@@ -131,7 +131,7 @@
 					"left": 310,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Save.svg",
+					"icon": "/RESOURCES/Images/Buttons/Save.png",
 					"fontSize": 12,
 					"class": "toolbar-button",
 					"events": [
@@ -147,7 +147,7 @@
 					"left": 389,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/First.svg",
+					"icon": "/RESOURCES/Images/Buttons/First.png",
 					"fontSize": 10,
 					"class": "toolbar-button",
 					"events": [
@@ -163,7 +163,7 @@
 					"left": 431,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Prev.svg",
+					"icon": "/RESOURCES/Images/Buttons/Prev.png",
 					"fontSize": 10,
 					"class": "toolbar-button",
 					"events": [
@@ -179,7 +179,7 @@
 					"left": 474,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Next.svg",
+					"icon": "/RESOURCES/Images/Buttons/Next.png",
 					"fontSize": 10,
 					"class": "toolbar-button",
 					"events": [
@@ -195,7 +195,7 @@
 					"left": 517,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Last.svg",
+					"icon": "/RESOURCES/Images/Buttons/Last.png",
 					"fontSize": 10,
 					"class": "toolbar-button",
 					"events": [
@@ -211,7 +211,7 @@
 					"left": 30,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Back.svg",
+					"icon": "/RESOURCES/Images/Buttons/Back.png",
 					"events": [
 						"onClick"
 					],

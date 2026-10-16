@@ -34,7 +34,7 @@
 					"left": 30,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Cancel.svg",
+					"icon": "/RESOURCES/Images/Buttons/Cancel.png",
 					"class": "toolbar-button",
 					"action": "cancel",
 					"events": [
@@ -49,7 +49,7 @@
 					"left": 70,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Save.svg",
+					"icon": "/RESOURCES/Images/Buttons/Save.png",
 					"class": "toolbar-button",
 					"method": "ObjectMethods/bValidate.4dm",
 					"events": [
@@ -64,7 +64,7 @@
 					"left": 160,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/First.svg",
+					"icon": "/RESOURCES/Images/Buttons/First.png",
 					"class": "toolbar-button",
 					"method": "ObjectMethods/bFirstRecord.4dm",
 					"events": [
@@ -79,7 +79,7 @@
 					"left": 200,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Prev.svg",
+					"icon": "/RESOURCES/Images/Buttons/Prev.png",
 					"class": "toolbar-button",
 					"method": "ObjectMethods/bPreviousRecord.4dm",
 					"events": [
@@ -94,7 +94,7 @@
 					"left": 239,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Next.svg",
+					"icon": "/RESOURCES/Images/Buttons/Next.png",
 					"class": "toolbar-button",
 					"method": "ObjectMethods/bNextRecord.4dm",
 					"events": [
@@ -109,7 +109,7 @@
 					"left": 280,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Last.svg",
+					"icon": "/RESOURCES/Images/Buttons/Last.png",
 					"class": "toolbar-button",
 					"method": "ObjectMethods/bLastRecord.4dm",
 					"events": [
@@ -125,7 +125,7 @@
 					"width": 38,
 					"height": 32,
 					"sizingX": "move",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"icon": "/RESOURCES/Images/Buttons/Print.png",
 					"method": "ObjectMethods/bPrint.4dm",
 					"events": [
 						"onClick"

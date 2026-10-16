@@ -63,7 +63,7 @@
 					"left": 130,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Add.svg",
+					"icon": "/RESOURCES/Images/Buttons/Add.png",
 					"action": "addSubrecord",
 					"events": [
 						"onClick"
@@ -78,7 +78,7 @@
 					"left": 170,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"icon": "/RESOURCES/Images/Buttons/Delete.png",
 					"action": "deleteSubrecord",
 					"events": [
 						"onClick"
@@ -93,7 +93,7 @@
 					"left": 752,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"icon": "/RESOURCES/Images/Buttons/Print.png",
 					"sizingX": "move",
 					"method": "ObjectMethods/bPrint.4dm",
 					"events": [
@@ -110,7 +110,7 @@
 					"left": 90,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Edit.svg",
+					"icon": "/RESOURCES/Images/Buttons/Edit.png",
 					"action": "editSubrecord",
 					"events": [
 						"onClick"
@@ -165,7 +165,7 @@
 						"onClick"
 					],
 					"style": "custom",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/ClearSearch.svg",
+					"icon": "/RESOURCES/Images/Buttons/ClearSearch.png",
 					"iconFrames": 4,
 					"sizingX": "move",
 					"method": "ObjectMethods/btnDel.4dm",
@@ -181,7 +181,7 @@
 						"onClick"
 					],
 					"style": "custom",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Search.svg",
+					"icon": "/RESOURCES/Images/Buttons/Search.png",
 					"iconFrames": 4,
 					"sizingX": "move",
 					"method": "ObjectMethods/btnSearch.4dm",
@@ -218,7 +218,7 @@
 					"left": 30,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Back.svg",
+					"icon": "/RESOURCES/Images/Buttons/Back.png",
 					"events": [
 						"onClick"
 					],
@@ -291,7 +291,7 @@
 					"left": 760,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/OpenList.svg",
+					"icon": "/RESOURCES/Images/Buttons/OpenList.png",
 					"action": "editSubrecord",
 					"events": [
 						"onClick"
@@ -420,7 +420,7 @@
 					"left": 760,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/AddList.svg",
+					"icon": "/RESOURCES/Images/Buttons/AddList.png",
 					"action": "addSubrecord",
 					"events": [
 						"onClick"

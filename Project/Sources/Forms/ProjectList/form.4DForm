@@ -36,7 +36,7 @@
 					"left": 90,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Edit.svg",
+					"icon": "/RESOURCES/Images/Buttons/Edit.png",
 					"events": [
 						"onClick"
 					],
@@ -51,7 +51,7 @@
 					"left": 130,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Add.svg",
+					"icon": "/RESOURCES/Images/Buttons/Add.png",
 					"events": [
 						"onClick"
 					],
@@ -66,7 +66,7 @@
 					"left": 170,
 					"width": 38,
 					"height": 32,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Delete.svg",
+					"icon": "/RESOURCES/Images/Buttons/Delete.png",
 					"events": [
 						"onClick"
 					],
@@ -82,7 +82,7 @@
 					"width": 38,
 					"height": 32,
 					"sizingX": "move",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Print.svg",
+					"icon": "/RESOURCES/Images/Buttons/Print.png",
 					"events": [
 						"onClick"
 					],
@@ -119,7 +119,7 @@
 						"onClick"
 					],
 					"style": "custom",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/ClearSearch.svg",
+					"icon": "/RESOURCES/Images/Buttons/ClearSearch.png",
 					"iconFrames": 4,
 					"sizingX": "move",
 					"method": "ObjectMethods/btnDel.4dm"
@@ -134,7 +134,7 @@
 						"onClick"
 					],
 					"style": "custom",
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Search.svg",
+					"icon": "/RESOURCES/Images/Buttons/Search.png",
 					"iconFrames": 4,
 					"sizingX": "move",
 					"method": "ObjectMethods/btnSearch.4dm",
@@ -151,7 +151,7 @@
 					"left": 30,
 					"width": 38,
 					"height": 34,
-					"icon": "/RESOURCES/Images/Buttons/Fluent/Back.svg",
+					"icon": "/RESOURCES/Images/Buttons/Back.png",
 					"events": [
 						"onClick"
 					],
